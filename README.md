@@ -58,12 +58,15 @@ Input Validation:
 # Weather API
 
 ## Setup
-1. Clone the repository.
-2. Create a virtual environment: `python -m venv venv`
-3. Activate the virtual environment:
-   - On Windows: `venv\Scripts\activate`
-   - On macOS/Linux: `source venv/bin/activate`
-4. Install dependencies: `pip install -r requirements.txt`
+In Linux, 
+    Give executable permissions for start.sh script
+        $ chmod +x start.sh
+    Run the start.sh shell script
+        $ ./start.sh
+
+In Windows, 
+    Run the start.bat bash script
+        $ start.bat
 
 ## Usage
 1. Run the application: `python run.py`
